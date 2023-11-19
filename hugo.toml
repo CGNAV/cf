@@ -1,0 +1,105 @@
+title = "瓜田"
+baseURL = "https://gt321.com/"
+# 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+
+hasCJKLanguage = true
+
+# 更改使用 Hugo 构建网站时使用的默认主题
+theme = "FixIt"
+
+[params]
+  # FixIt 主题版本
+  version = "0.2.X"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "往期内容"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+    # add user-defined content to menu items
+    [menu.main.params]
+      # add css class to a specific menu item
+      class = ""
+      # whether set as a draft menu item whose function is similar to a draft post/page
+      draft = false
+      # add fontawesome icon to a specific menu item
+      icon = "fa-solid fa-fire text-danger"
+      # set menu item type, optional values: ["mobile", "desktop"]
+      type = ""
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-th"
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
+    pre = ""
+    name = "求瓜"
+    identifier = "friends"
+    url = "/friends/"
+    weight = 4
+    [menu.main.params]
+      icon = "fa fa-envelope-open"
+        [[menu.main]]
+    pre = ""
+    name = "投稿"
+    identifier = "Telegram"
+    url = "https://t.me/TGniu_Bot"
+    weight = 5
+    [menu.main.params]
+      icon = "fa-brands fa-telegram fa-beat-fade"
+      
+[languages]
+    [languages.zh-cn]
+    languageName = '留学生の瓜田'
+    contentDir = 'content'
+    weight = 1
+
+    [languages.en]
+    languageName = '网红の瓜田'
+    contentDir = 'content.en'
+    weight = 2
+    
+        [languages.fr]
+    languageName = '反差婊'
+    contentDir = 'content.fr'
+    weight = 3
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/hugo-fixit/FixIt/issues/43)
+    noClasses = true
+  [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+        [markup.goldmark.parser.attribute]
+            block = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

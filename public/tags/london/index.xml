@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>London - 标签 - 瓜田 New</title>
+    <link>http://example.org/tags/london/</link>
+    <description>London - 标签 - 瓜田 New</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 26 May 2023 15:34:50 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/london/" rel="self" type="application/rss+xml" /><item>
+  <title>UoL - 秦梓越和他哥哥 音响、衣服、住宿与友情</title>
+  <link>http://example.org/posts/uol-qin-ziyue/</link>
+  <pubDate>Fri, 26 May 2023 15:34:50 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/posts/uol-qin-ziyue/</guid>
+  <description><![CDATA[该篇文章曝光了在伦敦留学的朋友秦梓越的哥哥和女友的一系列违法行为，他们盗取他人手机、随意发朋友圈、擅自穿用他人贵重物品等。此外，他们还没有及时归还并损坏了贵重衣物，但并未提出任何形式的赔偿。文章同时呼吁被整合者谨慎保护自己的财产和权益，不应该因赞同或好感而遭受物品被随意使用和言语辱骂等违法行为的侵害。]]></description>
+</item>
+</channel>
+</rss>

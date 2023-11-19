@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>High School - Tag - 瓜田 New</title>
+    <link>http://example.org/en/tags/high-school/</link>
+    <description>High School - Tag - 瓜田 New</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Jul 2023 00:10:09 &#43;0800</lastBuildDate><atom:link href="http://example.org/en/tags/high-school/" rel="self" type="application/rss+xml" /><item>
+  <title>Sydney - Improper behaviors of  student A exposed</title>
+  <link>http://example.org/en/posts/sydney-somebody-a/</link>
+  <pubDate>Sun, 16 Jul 2023 00:10:09 &#43;0800</pubDate>
+  <author>Author</author>
+  <guid>http://example.org/en/posts/sydney-somebody-a/</guid>
+  <description><![CDATA[This article exposes the improper behaviors of a Sydney high school student A, including maliciously spreading rumors, backstabbing classmates, not cherishing friendships and relationships. We should treat others' mistakes with understanding and patience, and encourage them to reflect on and correct their mistakes.]]></description>
+</item>
+</channel>
+</rss>

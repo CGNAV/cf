@@ -1,0 +1,87 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tags - 标签 - 瓜田 New</title>
+    <link>http://example.org/tags/</link>
+    <description>Tags - 标签 - 瓜田 New</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 14 Sep 2023 20:06:18 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+  <title>draft</title>
+  <link>http://example.org/tags/draft/</link>
+  <pubDate>Thu, 14 Sep 2023 20:06:18 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/draft/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Academic Integrity</title>
+  <link>http://example.org/tags/academic-integrity/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/academic-integrity/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Criminal</title>
+  <link>http://example.org/tags/criminal/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/criminal/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Fraud</title>
+  <link>http://example.org/tags/fraud/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/fraud/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Freeloading</title>
+  <link>http://example.org/tags/freeloading/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/freeloading/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Girl</title>
+  <link>http://example.org/tags/girl/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/girl/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Slander</title>
+  <link>http://example.org/tags/slander/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/slander/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>UK</title>
+  <link>http://example.org/tags/uk/</link>
+  <pubDate>Mon, 17 Jul 2023 16:33:14 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/uk/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Australia</title>
+  <link>http://example.org/tags/australia/</link>
+  <pubDate>Sun, 16 Jul 2023 00:10:09 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/australia/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Boy</title>
+  <link>http://example.org/tags/boy/</link>
+  <pubDate>Sun, 16 Jul 2023 00:10:09 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/tags/boy/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

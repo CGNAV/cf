@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Melb - Tag - 瓜田 New</title>
+    <link>http://example.org/en/tags/melb/</link>
+    <description>Melb - Tag - 瓜田 New</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 20 May 2023 16:04:10 &#43;0800</lastBuildDate><atom:link href="http://example.org/en/tags/melb/" rel="self" type="application/rss+xml" /><item>
+  <title>UM - Demon King accused of misconduct, but allegations are questionable</title>
+  <link>http://example.org/en/posts/um-demon-king/</link>
+  <pubDate>Sat, 20 May 2023 16:04:10 &#43;0800</pubDate>
+  <author>Author</author>
+  <guid>http://example.org/en/posts/um-demon-king/</guid>
+  <description><![CDATA[This article describes a Melbourne University student, Demon King, who has been accused of multiple violations, including physical assault and traffic violations. However, the allegations are questionable, and some descriptions are false. The origin and authenticity of the article have been questioned, causing a lot of controversy.]]></description>
+</item>
+</channel>
+</rss>

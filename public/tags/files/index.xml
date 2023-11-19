@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Files - 标签 - 瓜田 New</title>
+    <link>http://example.org/tags/files/</link>
+    <description>Files - 标签 - 瓜田 New</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 21 May 2023 12:18:01 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/files/" rel="self" type="application/rss+xml" /><item>
+  <title>留学生瓜田存档 工程文件 投稿PDF合集</title>
+  <link>http://example.org/posts/lxsguatian-pdf/</link>
+  <pubDate>Sun, 21 May 2023 12:18:01 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/posts/lxsguatian-pdf/</guid>
+  <description><![CDATA[原本来自留学生瓜田的 PDF 文件在以下地址可用，注意，此目录是工程目录，仅作为存档。]]></description>
+</item>
+</channel>
+</rss>
