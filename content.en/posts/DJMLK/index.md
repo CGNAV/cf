@@ -14,7 +14,7 @@ description: 抖音热瓜🔥DJMLK《深海炸弹》
 keywords:
 license:
 comment: true
-weight: 1
+weight: 7
 tags:
   - 抖音
   - 深海炸弹
