@@ -1,5 +1,5 @@
 ---
-slug: YYDXJ
+slug: yydxJ
 title: 月月大小姐
 
 subtitle:
