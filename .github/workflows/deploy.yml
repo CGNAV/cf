@@ -1,14 +1,6 @@
 name: Hugo build and deploy
 on:
   push:
-    branches: [ main ] # 推送到 main 分支时触发
-    paths: # 只有当下面的文件发生变化时才触发
-      - 'assets/**'
-      - 'config/**'
-      - 'content/**'
-      - 'data/**'
-      - 'static/**'
-      - 'themes/**'
   workflow_run:
     workflows: ['Update theme']
     types:
