@@ -32,4 +32,7 @@ git submodule update --remote --merge themes/FixIt
 
 ## 部署
 
-推送到 GitHub 后，GitHub Actions 会自动部署到 GitHub Pages。
+1. 转到 Setting => Pages => Build and deployment => Deploy from a branch => 分支选择 "gh-pages"。
+2. 转到 Setting => Actions => General => Workflow permissions => 选中 "Read and write permissions"。
+
+之后每次推送到 GitHub 后，GitHub Actions 会自动部署到 GitHub Pages。
