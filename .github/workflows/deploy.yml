@@ -1,0 +1,47 @@
+name: Hugo build and deploy
+on:
+  push:
+    branches: [ main ] # 推送到 main 分支时触发
+    paths: # 只有当下面的文件发生变化时才触发
+      - 'assets/**'
+      - 'config/**'
+      - 'content/**'
+      - 'data/**'
+      - 'static/**'
+      - 'themes/**'
+  workflow_run:
+    workflows: ['Update theme']
+    types:
+      - completed
+  workflow_dispatch:
+jobs:
+  Actions-Hugo-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 下载内容和主题
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      # 安装 Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+
+      # 编译
+      - name: Build
+        run: hugo -v --gc --minify
+
+      # 部署到 Github Pages，当前仓库的 gh-pages 分支
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # See https://github.com/JamesIves/github-pages-deploy-action#configuration-
+          branch: gh-pages
+          folder: public
+          clean: true
+          single-commit: true
