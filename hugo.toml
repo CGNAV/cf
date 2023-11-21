@@ -1,174 +1,69 @@
-title = "瓜田"
-baseURL = "https://gt321.com/"
-# 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "zh-cn"
-# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "zh-CN"
-# 是否包括中日韩文字
-
-hasCJKLanguage = true
-
-# 更改使用 Hugo 构建网站时使用的默认主题
-theme = "FixIt"
-
 [params]
-  # FixIt 主题版本
-  version = "0.2.X"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "往期内容"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
-    # add user-defined content to menu items
-    [menu.main.params]
-      # add css class to a specific menu item
-      class = ""
-      # whether set as a draft menu item whose function is similar to a draft post/page
-      draft = false
-      # add fontawesome icon to a specific menu item
-      icon = "fa-solid fa-fire text-danger"
-      # set menu item type, optional values: ["mobile", "desktop"]
-      type = ""
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 2
-    [menu.main.params]
-      icon = "fa-solid fa-th"
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "标签"
-    url = "/tags/"
-    title = ""
-    weight = 3
-    [menu.main.params]
-      icon = "fa-solid fa-tags"
-  [[menu.main]]
-    pre = ""
-    name = "求瓜"
-    identifier = "friends"
-    url = "/friends/"
-    weight = 4
-    [menu.main.params]
-      icon = "fa fa-envelope-open"
-        [[menu.main]]
-    pre = ""
-    name = "投稿"
-    identifier = "Telegram"
-    url = "https://t.me/TGniu_Bot"
-    weight = 5
-    [menu.main.params]
-      icon = "fa-brands fa-telegram fa-beat-fade"
-      
-[languages]
-    [languages.zh-cn]
-    languageName = '留学生の瓜田'
-    contentDir = 'content'
-    weight = 1
-
-    [languages.en]
-    languageName = '网红の瓜田'
-    contentDir = 'content.en'
-    weight = 2
-    
-        [languages.fr]
-    languageName = '反差婊'
-    contentDir = 'content.fr'
-    weight = 3
-
-# Markup related configuration in Hugo
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration (https://github.com/hugo-fixit/FixIt/issues/43)
-    noClasses = true
-  [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
-        [markup.goldmark.parser.attribute]
-            block = true
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  [params]
-  # FixIt 0.2.15 | 更改 FixIt 主题版本
-  version = "0.2.X" # 例如："0.2.X", "0.2.15", "v0.2.15" 等
-  # 网站描述
-  description = "这是我的 Hugo FixIt 网站"
-  # 网站关键词
-  keywords = ["Hugo", "FixIt"]
-  # 网站默认主题样式 ["light", "dark", "auto"]
+  #  FixIt theme version
+  version = "0.2.15" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  # site description
+  description = "瓜田专栏，每周更新反差日记栏目，把内心的小秘密，展示出来吧"
+  # site keywords
+  keywords = ["瓜", "田"]
+  # site default theme ["light", "dark", "auto"]
   defaultTheme = "auto"
-  # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
+  # public git repo url only then enableGitInfo is true
   gitRepo = ""
-  # FixIt 0.1.1 | 新增 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
+  #  which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
-  # FixIt 0.2.0 | 新增 日期格式
+  #  date format
   dateFormat = "2006-01-02"
-  # 网站图片，用于 Open Graph 和 Twitter Cards
+  # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
-  # FixIt 0.2.12 | 新增 开启 PWA 支持
+  #  enable PWA
   enablePWA = true
-  # FixIt 0.2.14 | 新增 是否自动显示外链图标
-  externalIcon = false
-  # FixIt 0.2.14 | 新增 默认情况下，FixIt 只会在主页的 HTML 头中注入主题元标记
-  # 您可以将其关闭，但如果您不这样做，我们将不胜感激，因为这是观察 FixIt 受欢迎程度上升的好方法
-  disableThemeInject = false
+  #  whether to add external Icon for external links automatically
+  externalIcon =false 
+  #  FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
+  # You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
+  disableThemeInject =false 
 
-  # FixIt 0.2.0 | 新增 应用图标配置
+  #  App icon config
   [params.app]
-    # 当添加到 iOS 主屏幕或者 Android 启动器时的标题，覆盖默认标题
+    # optional site title override for the app when added to an iOS home screen or Android launcher
     title = "FixIt"
-    # 是否隐藏网站图标资源链接
+    # whether to omit favicon resource links
     noFavicon = false
-    # 更现代的 SVG 网站图标，可替代旧的 .png 和 .ico 文件
+    # modern SVG favicon to use in place of older style .png and .ico files
     svgFavicon = ""
-    # Safari 图标颜色
-    iconColor = "#5bbad5"
-    # Windows v8-10 磁贴颜色
+    # Safari mask icon color
+    iconColor = "#f2b400"
+    # Windows v8-10 tile color
     tileColor = "#da532c"
-    # FixIt 0.2.12 | 更改 Android 浏览器主题色
+    #  Android browser theme color
     [params.app.themeColor]
       light = "#f8f8f8"
       dark = "#252627"
 
-  # FixIt 0.2.0 | 新增 搜索配置
+  #  Search config
   [params.search]
     enable = true
-    # 搜索引擎的类型 ["lunr", "algolia", "fuse"]
+    # type of search engine ["lunr", "algolia", "fuse"]
     type = "lunr"
-    # 文章内容最长索引长度
+    # max index length of the chunked content
     contentLength = 4000
-    # 搜索框的占位提示语
-    placeholder = ""
-    # FixIt 0.2.1 | 新增 最大结果数目
+    # placeholder of the search bar
+    placeholder = "关键词搜索"
+    #  max number of results length
     maxResultLength = 10
-    # FixIt 0.2.3 | 新增 结果内容片段长度
-    snippetLength = 50
-    # FixIt 0.2.1 | 新增 搜索结果中高亮部分的 HTML 标签
+    #  snippet length of the result
+    snippetLength = 30
+    #  HTML tag name of the highlight part in results
     highlightTag = "em"
-    # FixIt 0.2.4 | 新增 是否在搜索索引中使用基于 baseURL 的绝对路径
+    #  whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
       index = ""
       appID = ""
       searchKey = ""
     [params.search.fuse]
-      # FixIt 0.2.17 | 新增 https://fusejs.io/api/options.html
+      #  https://fusejs.io/api/options.html
       isCaseSensitive = false
       minMatchCharLength = 2
       findAllMatches = false
@@ -179,67 +74,67 @@ theme = "FixIt"
       useExtendedSearch = false
       ignoreFieldNorm = false
 
-  # 页面头部导航栏配置
+  # Header config
   [params.header]
-    # FixIt 0.2.13 | 更改 桌面端导航栏模式 ["sticky", "normal", "auto"]
+    #  desktop header mode ["sticky", "normal", "auto"]
     desktopMode = "sticky"
-    # FixIt 0.2.13 | 更改 移动端导航栏模式 ["sticky", "normal", "auto"]
+    #  mobile header mode ["sticky", "normal", "auto"]
     mobileMode = "auto"
-    # FixIt 0.2.0 | 新增 页面头部导航栏标题配置
+    #  Header title config
     [params.header.title]
-      # LOGO 的 URL
-      logo = "/fixit.min.svg"
-      # 标题名称
-      name = "我的 Hugo FixIt 网站"
-      # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "瓜田"    
+      # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
-      # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
+      # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
-      # FixIt 0.2.5 | 新增 是否为标题显示打字机动画
+      #  whether to use typeit animation for title name
       typeit = false
-    # FixIt 0.2.12 | 新增 页面头部导航栏副标题配置
+    #  Header subtitle config
     [params.header.subtitle]
-      # 副标题名称
+      # subtitle name
       name = ""
-      # 是否为副标题显示打字机动画
+      # whether to use typeit animation for subtitle name
       typeit = false
 
-  # FixIt 0.2.18 | 新增 面包屑导航配置
+  #  Breadcrumb config
   [params.breadcrumb]
-    enable = false
-    sticky = false
-    showHome = false
+    enable = true
+    sticky = true
+    showHome = true
 
-  # 页面底部信息配置
+  # Footer config
   [params.footer]
     enable = true
-    # FixIt 0.2.17 | 更改 自定义内容（支持 HTML 格式）
-    # 进阶使用，见参数 `params.customFilePath.footer`
+    #  Custom content (HTML format is supported)
+    # For advanced use, see parameter `params.customFilePath.footer`
     custom = ""
-    # FixIt 0.2.0 | 新增 是否显示 Hugo 和主题信息
-    hugo = true
-    # FixIt 0.2.0 | 新增 是否显示版权信息
+    #  whether to show Hugo and theme info
+    hugo = false
+    #  whether to show copyright info
     copyright = true
-    # FixIt 0.2.0 | 新增 是否显示作者
+    #  whether to show the author
     author = true
-    # 网站创立年份
+    # Site creation year
     since = 2021
-    # FixIt 0.2.14 | 新增 是否显示网站内容总字数
+    #  whether to show total word count of site content
     wordCount = true
-    # FixIt 0.2.12 | 新增 公网安备信息，仅在中国使用（支持 HTML 格式）
+    #  Public network security only in China (HTML format is supported)
     gov = ""
-    # FixIt 0.2.12 | 更改 ICP 备案信息，仅在中国使用（支持 HTML 格式）
+    # ICP info only in China (HTML format is supported)
     icp = ""
-    # 许可协议信息（支持 HTML 格式）
+    # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-    # FixIt 0.2.17 | 更改 网站创立时间
+    #  Site creation time
     [params.footer.siteTime]
       enable = false
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
       value = "" # e.g. "2021-12-18T16:15:22+08:00"
-    # FixIt 0.2.17 | 新增 页面底部行排序，可选值：["first", 0, 1, 2, 3, 4, 5, "last"]
+    #  footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
       copyright = 0
@@ -247,75 +142,75 @@ theme = "FixIt"
       visitor = 0
       beian = 0
 
-  # FixIt 0.2.0 | 新增 Section（所有文章）页面配置
+  #  Section (all posts) page config
   [params.section]
-    # section 页面每页显示文章数量
+    # special amount of posts in each section page
     paginate = 20
-    # 日期格式（月和日）
+    # date format (month and day)
     dateFormat = "01-02"
-    # RSS 文章数目
+    # amount of RSS pages
     rss = 10
-    # FixIt 0.2.13 | 新增 最近更新文章设置
+    #  recently updated posts settings
     [params.section.recentlyUpdated]
       enable = false
       rss = false
       days = 30
       maxCount = 10
 
-  # FixIt 0.2.0 | 新增 List（目录或标签）页面配置
+  #  List (category or tag) page config
   [params.list]
-    # list 页面每页显示文章数量
+    # special amount of posts in each list page
     paginate = 20
-    # 日期格式（月和日）
+    # date format (month and day)
     dateFormat = "01-02"
-    # RSS 文章数目
+    # amount of RSS pages
     rss = 10
 
-  # FixIt 0.2.17 | 新增 标签云配置
+  #  TagCloud config for tags page
   [params.tagcloud]
     enable = false
-    min = 14 # 最小字体大小，单位：px
-    max = 32 # 最大字体大小，单位：px
-    peakCount = 10 # 每个标签的最大文章数
-    orderby = "name" # 标签排序方式，可选值：["name", "count"]
+    min = 14 # Minimum font size in px
+    max = 32 # Maximum font size in px
+    peakCount = 10 # Maximum count of posts per tag
+    orderby = "name" # Order of tags, optional values: ["name", "count"]
 
-  # 主页配置
+  # Home page config
   [params.home]
-    # FixIt 0.2.0 | 新增 RSS 文章数目
+    #  amount of RSS pages
     rss = 10
-    # 主页个人信息
+    # Home page profile
     [params.home.profile]
       enable = true
-      # Gravatar 邮箱，用于优先在主页显示的头像
+      # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
-      # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
-      # FixIt 0.2.17 | 新增 头像菜单链接的 identifier
+      # URL of avatar shown in home page
+      avatarURL = "https://api.telghub.com/small/20220605/25220_225405_2506.jpg"
+      #  identifier of avatar menu link
       avatarMenu = ""
-      # FixIt 0.2.7 | 更改 主页显示的网站标题（支持 HTML 格式）
-      title = ""
-      # 主页显示的网站副标题
-      subtitle = "这是我的 Hugo FixIt 网站"
-      # 是否为副标题显示打字机动画
+      #  title shown in home page (HTML format is supported)
+      title = "Welcome to Guatian😘"
+      # subtitle shown in home page
+      subtitle = "专注于分享最新鲜、最引人入胜的娱乐圈内幕和网络红人的热点话题 "
+      # whether to use typeit animation for subtitle
       typeit = true
-      # 是否显示社交账号
+      # whether to show social links
       social = true
-      # FixIt 0.2.0 | 新增 免责声明（支持 HTML 格式）
+      #  disclaimer (HTML format is supported)
       disclaimer = ""
-    # 主页文章列表
+    # Home page posts
     [params.home.posts]
       enable = true
-      # 主页每页显示文章数量
-      paginate = 6
+      # special amount of posts in each home posts page
+      paginate = 8
 
-  # FixIt 0.2.16 | 更改 作者的社交信息设置
+  #  Social config about the author
   [params.social]
-    GitHub = "Lruihao"
+    GitHub = ""
     Linkedin = ""
     Twitter = ""
     Instagram = ""
     Facebook = ""
-    Telegram = ""
+    Telegram = "ZTomgche"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -378,7 +273,7 @@ theme = "FixIt"
     BuyMeaCoffee = ""
     Linktree = ""
     QQ = ""
-    QQGroup = "awbwdTtSQ_-H5QGzeJxdWgv6JMbNehNM" # https://qun.qq.com/join.html
+    QQGroup = "" # https://qun.qq.com/join.html
     Diaspora = ""
     CSDN = ""
     Discord = ""
@@ -393,132 +288,131 @@ theme = "FixIt"
     Feishu = ""
     TryHackMe = ""
     Phone = ""
-    Email = ""
+    Email = "cny.thb@gmail.com"
     RSS = true
-
-  # FixIt 0.2.0 | 更改 文章页面配置
+  #  Page config
   [params.page]
-    # FixIt 0.2.18 | 新增 是否启用文章作者头像
+    #  whether to enable the author's avatar of the post
     authorAvatar = true
-    # FixIt 0.2.0 | 新增 是否在主页隐藏一篇文章
+    #  whether to hide a page from home page
     hiddenFromHomePage = false
-    # FixIt 0.2.0 | 新增 是否在搜索结果中隐藏一篇文章
+    #  whether to hide a page from search results
     hiddenFromSearch = false
-    # FixIt 0.2.0 | 新增 是否使用 twemoji
-    twemoji = false
-    # 是否使用 lightgallery
-    # FixIt 0.2.18 | 更改 如果设为 "force"，文章中的图片将强制按照画廊形式呈现
-    lightgallery = false
-    # FixIt 0.2.0 | 新增 是否使用 ruby 扩展语法
+    #  whether to enable twemoji
+    twemoji = true
+    # whether to enable lightgallery
+    #  if set to "force", images in the content will be forced to shown as the gallery.
+    lightgallery = true
+    #  whether to enable the ruby extended syntax
     ruby = true
-    # FixIt 0.2.0 | 新增 是否使用 fraction 扩展语法
+    #  whether to enable the fraction extended syntax
     fraction = true
-    # FixIt 0.2.0 | 新增 是否使用 fontawesome 扩展语法
+    #  whether to enable the fontawesome extended syntax
     fontawesome = true
-    # 许可协议信息（支持 HTML 格式）
+    # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-    # 是否在文章页面显示原始 Markdown 文档链接
+    # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
-    # FixIt 0.2.4 | 新增 是否在 RSS 中显示全文内容
+    #  whether to show the full text content in RSS
     rssFullText = false
-    # FixIt 0.2.13 | 新增 页面样式 ["narrow", "normal", "wide", ...]
-    pageStyle = "normal"
-    # FixIt 0.2.14 | 新增 FixIt 0.2.18 | 删除 强制使用 Gravatar 作为作者头像
-    # gravatarForce = true
-    # FixIt 0.2.17 | 更改 开启自动书签支持
-    # 如果为 true，则在关闭页面时保存阅读进度
+    #  Page style ["narrow", "normal", "wide", ...]
+    pageStyle = "narrow"
+    #   Gravatar is force-used as the author's avatar
+    # gravatarForce = false
+    #  Auto Bookmark Support
+    # If true, save the reading progress when closing the page.
     autoBookmark = false
-    # FixIt 0.2.17 | 新增 是否使用 字数统计
+    #  whether to enable wordCount
     wordCount = true
-    # FixIt 0.2.17 | 新增 是否使用 预计阅读
+    #  whether to enable readingTime
     readingTime = true
-    # FixIt 0.2.17 | 新增 文章结束标志
+    #  end of post flag
     endFlag = ""
-    # FixIt 0.2.18 | 新增 是否开启即时页面
+    #  whether to enable instant.page
     instantPage = false
 
-    # FixIt 0.2.15 | 新增 转载配置
+    #  Repost config
     [params.page.repost]
       enable = false
       url = ""
-    # FixIt 0.2.0 | 新增 目录配置
+    #  Table of the contents config
     [params.page.toc]
-      # 是否使用目录
+      # whether to enable the table of the contents
       enable = true
-      # FixIt 0.2.9 | 新增 是否保持使用文章前面的静态目录
+      #  whether to keep the static table of the contents in front of the post
       keepStatic = false
-      # 是否使侧边目录自动折叠展开
+      # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
-      # FixIt 0.2.13 | 新增 目录位置 ["left", "right"]
+      #  position of TOC ["left", "right"]
       position = "right"
-    # FixIt 0.2.13 | 新增 在文章开头显示提示信息，提醒读者文章内容可能过时
+    #  Display a message at the beginning of an article to warn the reader that its content might be expired
     [params.page.expirationReminder]
       enable = false
-      # 如果文章最后更新于这天数之前，显示提醒
+      # Display the reminder if the last modified time is more than 90 days ago
       reminder = 90
-      # 如果文章最后更新于这天数之前，显示警告
+      # Display warning if the last modified time is more than 180 days ago
       warning = 180
-      # 如果文章到期是否关闭评论
+      # If the article expires, close the comment or not
       closeComment = false
-    # FixIt 0.2.0 | 新增 代码配置
-    [params.page.code]
-      # 是否显示代码块的复制按钮
-      copy = true
-      # FixIt 0.2.13 | 新增 是否显示代码块的编辑按钮
-      edit = true
-      # 默认展开显示的代码行数
-      maxShownLines = 10
-    # FixIt 0.2.14 | 新增 文章编辑
-    [params.page.edit]
-      enable = false
-      # FixIt 0.2.15 | 更改 编辑的基础链接
-      # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
-      # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
-      url = ""
-    # FixIt 0.2.0 | 更改 KaTeX 数学公式 (https://katex.org)
+    #  KaTeX mathematical formulas (https://katex.org)
     [params.page.math]
       enable = true
-      # 默认行内定界符是 $ ... $ 和 \( ... \)
+      # default inline delimiter is $ ... $ and \( ... \)
       inlineLeftDelimiter = ""
       inlineRightDelimiter = ""
-      # 默认块定界符是 $$ ... $$, \[ ... \],  \begin{equation} ... \end{equation} 和一些其它的函数
+      # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
       blockLeftDelimiter = ""
       blockRightDelimiter = ""
-      # KaTeX 插件 copy_tex
+      # KaTeX extension copy_tex
       copyTex = true
-      # KaTeX 插件 mhchem
+      # KaTeX extension mhchem
       mhchem = true
-    # FixIt 0.2.0 | 新增 Mapbox GL JS 配置 (https://docs.mapbox.com/mapbox-gl-js)
+    #  Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      #  whether to show the edit button of the code block
+      edit = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
+    #  Post edit
+    [params.page.edit]
+      enable = false
+      #  Link for fork & edit
+      # url = "/edit/branch-name/subdirectory-name" # base on `params.gitRepo`
+      # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # full url
+      url = ""
+    #  Mapbox GL JS config (https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
-      # Mapbox GL JS 的 access token
+      # access token of Mapbox GL JS
       accessToken = ""
-      # 浅色主题的地图样式
+      # style for the light theme
       lightStyle = "mapbox://styles/mapbox/light-v9"
-      # 深色主题的地图样式
+      # style for the dark theme
       darkStyle = "mapbox://styles/mapbox/dark-v9"
-      # 是否添加 NavigationControl
+      # whether to add NavigationControl
       navigation = true
-      # 是否添加 GeolocateControl
+      # whether to add GeolocateControl
       geolocate = true
-      # 是否添加 ScaleControl
+      # whether to add ScaleControl
       scale = true
-      # 是否添加 FullscreenControl
+      # whether to add FullscreenControl
       fullscreen = true
-    # FixIt 0.2.17 | 新增 赞赏设置
+    #  Donate (Sponsor) settings
     [params.page.reward]
       enable = false
       animation = false
-      # 相对于页脚的位置，可选值：["before", "after"]
+      # position relative to post footer, optional values: ["before", "after"]
       position = "after"
       # comment = "Buy me a coffee"
-      # FixIt 0.2.18 | 新增 二维码图片展示模式，可选值：["static", "fixed"]，默认：`static`
+      #  display mode of QR code images, optional values: ["static", "fixed"], default: `static`
       mode = "static"
       [params.page.reward.ways]
         # wechatpay = "/images/wechatpay.png"
         # alipay = "/images/alipay.png"
         # paypal = "/images/paypal.png"
         # bitcoin = "/images/bitcoin.png"
-    # FixIt 0.2.0 | 更改 文章页面的分享信息设置
+    #  social share links in post page
     [params.page.share]
       enable = true
       Twitter = true
@@ -535,8 +429,11 @@ theme = "FixIt"
       Line = true
       Instapaper = false
       Pocket = false
+      Digg = false
+      Stumbleupon = false
       Flipboard = false
       Weibo = true
+      Renren = false
       Myspace = true
       Blogger = true
       Baidu = false
@@ -545,23 +442,24 @@ theme = "FixIt"
       Skype = false
       Trello = false
       Mix = false
-    # FixIt 0.2.15 | 更改 评论系统设置
+    #  Comment config
     [params.page.comment]
-      enable = false
-      # FixIt 0.2.13 | 新增 Artalk 评论系统设置 (https://artalk.js.org/)
+      enable = true
+      #  Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
-        server = "https://yourdomain"
+        server = "https://yourdomain/api/"
         site = "默认站点"
         placeholder = ""
         noComment = ""
         sendBtn = ""
         editorTravel = true
         flatMode = "auto"
-        # FixIt 0.2.17 | 更改 启用 lightgallery 支持
+        maxNesting = 3
+        #  enable lightgallery support
         lightgallery = false
-        locale = "" # FixIt 0.2.15 | 新增
-        # FixIt 0.2.18 | 新增
+        locale = "" # 
+        # 
         emoticons = ""
         nestMax = 2
         nestSort = "DATE_ASC" # ["DATE_ASC", "DATE_DESC", "VOTE_UP_DESC"]
@@ -572,21 +470,21 @@ theme = "FixIt"
         imgUpload = true
         preview = true
         versionCheck = true
-      # FixIt 0.1.1 | 新增 Disqus 评论系统设置 (https://disqus.com)
+      #  Disqus comment config (https://disqus.com)
       [params.page.comment.disqus]
-        enable = false
-        # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
+        enable = true
+        # Disqus shortname to use Disqus in posts
         shortname = ""
-      # FixIt 0.1.1 | 新增 Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
+      #  Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = false
         owner = ""
         repo = ""
         clientId = ""
         clientSecret = ""
-      # Valine 评论系统设置 (https://github.com/xCss/Valine)
+      # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = false
+        enable = true
         appId = ""
         appKey = ""
         placeholder = ""
@@ -600,41 +498,41 @@ theme = "FixIt"
         highlight = true
         enableQQ = false
         serverURLs = ""
-        # FixIt 0.2.6 | 新增 emoji 数据文件名称，默认是 "google.yml"
+        #  emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # 位于 "themes/FixIt/assets/lib/valine/emoji/" 目录
-        # 可以在你的项目下相同路径存放你自己的数据文件：
+        # located in "themes/FixIt/assets/lib/valine/emoji/" directory
+        # you can store your own data files in the same path under your project:
         # "assets/lib/valine/emoji/"
         emoji = ""
-        commentCount = true # FixIt 0.2.13 | 新增
-      # FixIt 0.2.16 | 更改 Waline 评论系统设置 (https://waline.js.org)
+        commentCount = true # 
+      #  Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = false
+        enable = true
         serverURL = ""
-        pageview = false # FixIt 0.2.15 | 新增
+        pageview = false # 
         emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
         meta = ["nick", "mail", "link"]
         requiredMeta = []
         login = "enable"
         wordLimit = 0
         pageSize = 10
-        imageUploader = false # FixIt 0.2.15 | 新增
-        highlighter = false # FixIt 0.2.15 | 新增
-        comment = false # FixIt 0.2.15 | 新增
-        texRenderer = false # FixIt 0.2.16 | 新增
-        search = false # FixIt 0.2.16 | 新增
-        recaptchaV3Key = "" # FixIt 0.2.16 | 新增
-        reaction = false # FixIt 0.2.18 | 新增
-      # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
+        imageUploader = false # 
+        highlighter = false # 
+        comment = false # 
+        texRenderer = false # 
+        search = false # 
+        recaptchaV3Key = "" # 
+        reaction = false # 
+      # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = ""
         languageCode = "zh_CN"
-      # FixIt 0.2.0 | 新增 Telegram Comments 评论系统设置 (https://comments.app)
+      #  Telegram comments config (https://comments.app)
       [params.page.comment.telegram]
-        enable = false
+        enable = true
         siteID = ""
         limit = 5
         height = ""
@@ -642,10 +540,10 @@ theme = "FixIt"
         colorful = true
         dislikes = false
         outlined = false
-      # FixIt 0.2.0 | 新增 Commento 评论系统设置 (https://commento.io)
+      #  Commento comment config (https://commento.io)
       [params.page.comment.commento]
         enable = false
-      # FixIt 0.2.5 | 新增 Utterances 评论系统设置 (https://utteranc.es)
+      #  Utterances comment config (https://utteranc.es)
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -654,7 +552,7 @@ theme = "FixIt"
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
-      # FixIt 0.2.13 | 新增 Twikoo 评论系统设置 (https://twikoo.js.org/)
+      #  Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = false
         envId = ""
@@ -662,11 +560,11 @@ theme = "FixIt"
         path = ""
         visitor = true
         commentCount = true
-        # FixIt 0.2.17 | 更改 启用 lightgallery 支持
+        #  enable lightgallery support
         lightgallery = false
-        # FixIt 0.2.17 | 新增 启用 Katex 支持
+        #  enable Katex support
         katex = false
-      # FixIt 0.2.14 | 新增 Giscus 评论系统设置
+      #  Giscus comments config
       [params.page.comment.giscus]
         enable = false
         repo = ""
@@ -674,7 +572,7 @@ theme = "FixIt"
         category = ""
         categoryId = ""
         mapping = ""
-        strict = "0" # FixIt 0.2.18 | 新增
+        strict = "0" # 
         term = ""
         reactionsEnabled = "1"
         emitMetadata = "0"
@@ -682,19 +580,19 @@ theme = "FixIt"
         lightTheme = "light"
         darkTheme = "dark"
         lazyLoad = true
-    # FixIt 0.2.7 | 新增 第三方库配置
+    #  Third-party library config
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        # 位于 "assets/"
-        # 或者
+        # located in "assets/"
+        # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
         # someJavascript = "some.js"
-        # 位于 "assets/"
-        # 或者
+        # located in "assets/"
+        # Or
         # someJavascript = "https://cdn.example.com/some.js"
-    # FixIt 0.2.10 | 更改 页面 SEO 配置
+    #  Page SEO config
     [params.page.seo]
       # 图片 URL
       images = []
@@ -730,9 +628,9 @@ theme = "FixIt"
   # FixIt 0.2.12 | 新增 水印配置
   # 详细参数见 https://github.com/Lruihao/watermark#readme
   [params.watermark]
-    enable = false
+    enable = true
     # 水印内容（允许 HTML 格式）
-    content = ""
+    content = "吃瓜爆料"
     # 水印透明度
     opacity = 0.1
     # 水印父节点
@@ -756,7 +654,7 @@ theme = "FixIt"
   [params.ibruce]
     enable = true
     # 在文章中开启
-    enablePost = false
+    enablePost = true
 
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu/360/Sogou
   [params.verification]
@@ -831,11 +729,11 @@ theme = "FixIt"
   [params.backToTop]
     enable = true
     # 在 b2t 按钮中显示滚动百分比
-    scrollpercent = false
+    scrollpercent = true
 
   # FixIt 0.2.16 | 新增 阅读进度条
   [params.readingProgress]
-    enable = false
+    enable = true
     # 可用值：["left", "right"]
     start = "left"
     # 可用值：["top", "bottom"]
@@ -851,7 +749,7 @@ theme = "FixIt"
     enable = false
     # 所有可用颜色：
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
-    color = "blue"
+    color = "yellow"
     # 所有可用主题：
     # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
     # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
