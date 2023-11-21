@@ -67,11 +67,11 @@ repost:
 
 {{< admonition type=warning title="NSFW少儿不宜" open=false >}}
 
-<div class="blog_video_player_wrap" style="max-width: 1600px; margin: 20px auto 20px;">
- <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400458/1/Db0VB09SJkQ.40777/d7fead6b0096e14f6a" style="max-width: 450px;" title="Give it away, give it away, give it away now!" alt="Creating Giveaways">
-  <source src="1.AV1" type="video/mp4">
- </video>
-</div>
+<iframe
+ height=500 width=100%
+ src="1.AV1" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
 {{< /admonition >}}
 
 ### 投稿补充
