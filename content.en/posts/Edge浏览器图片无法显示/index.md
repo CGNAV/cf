@@ -13,7 +13,7 @@ description:
 keywords:
 license:
 comment: true
-weight: 20
+weight: 1
 tags:
   - 关于
 categories:
