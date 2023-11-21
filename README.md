@@ -28,7 +28,7 @@ git submodule update --remote --merge themes/FixIt
 
 ## 修改主题源码
 
-通过覆盖主题文件来修改主题源码，例如要修改主题的 `root/theme/layouts/_default/baseof.html` 文件，可以将主题源文件复制到 `root/layouts/_default/baseof.html` 文件，然后进行自己的修改，这样能避免升级主题时出现冲突。
+通过覆盖主题文件来修改主题源码，例如要修改主题的 `root/themes/FixIt/layouts/_default/baseof.html` 文件，可以将主题源文件复制到 `root/layouts/_default/baseof.html` 文件，然后进行自己的修改，这样能避免升级主题时出现冲突。
 
 ## 部署
 
