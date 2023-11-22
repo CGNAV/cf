@@ -56,10 +56,8 @@ repost:
 快手「**没时间**」一个一万多粉丝的小网红，私拍性感情趣内衣视频发出来了别人能看见我们黑料的狼友也得要看见，这样的年纪这样的身材这样面貌是不是尤物了
 ***
 
-{{< admonition type=info title="截屏3" open=false >}}
+{{< admonition type=info title="截屏1" open=false >}}
 {{< image src="fig-2.avif" width="240px" caption="iMessage 2" >}}
-{{< image src="fig-3.avif" width="240px" caption="iMessage 3" >}}
-{{< image src="fig-4.avif" width="240px" caption="iMessage 3" >}}
 {{< /admonition >}}
 
 ### video
@@ -69,7 +67,79 @@ repost:
 
 <iframe
  height=500 width=100%
- src="1.AV1" border="0"
+ src="1.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="2.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="3.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="4.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="5.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="6.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="7.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="9.mp4" border="0"
+ frameborder=0 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="8.mp4" border="0"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}

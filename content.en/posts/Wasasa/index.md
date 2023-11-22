@@ -79,7 +79,7 @@ repost:
 
 <iframe
  height=500 width=100%
- src="2.AV1"
+ src="1.mp4"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}
@@ -88,7 +88,7 @@ repost:
 
 <iframe
  height=500 width=100%
- src="1.AV1"
+ src="2.mp4"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}
@@ -97,7 +97,7 @@ repost:
 
 <iframe
  height=500 width=100%
- src="3.AV1"
+ src="3.mp4"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}
@@ -106,7 +106,7 @@ repost:
 
 <iframe
  height=500 width=100%
- src="4.AV1"
+ src="4.mp4"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}
@@ -115,7 +115,7 @@ repost:
 
 <iframe
  height=500 width=100%
- src="5.AV1"
+ src="5.mp4"
  frameborder=0 allowfullscreen>
 </iframe>
 {{< /admonition >}}
