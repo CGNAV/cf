@@ -72,7 +72,7 @@ theme = "FixIt"
       
 [languages]
     [languages.zh-cn]
-    languageName = '留学生の瓜田'
+    languageName = '留学の瓜田'
     contentDir = 'content'
     weight = 1
 
@@ -82,7 +82,7 @@ theme = "FixIt"
     weight = 2
     
         [languages.fr]
-    languageName = '反差婊'
+    languageName = '筹备中'
     contentDir = 'content.fr'
     weight = 3
 
