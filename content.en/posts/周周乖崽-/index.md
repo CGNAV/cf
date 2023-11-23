@@ -51,7 +51,7 @@ repost:
 
 {{< admonition type=info title="来源" open=true >}}
 
-<p align="center">抖音：[周周乖崽]--性愛視頻“調教” </p>
+<p align="center">抖音：[周周乖崽]--土豪定制視頻“調教” </p>
 {{< image src="fig-1.avif" width="480px" caption="kj.hgiuyyb.nmk.g" >}}
 {{< /admonition >}}
 ### picture
@@ -59,10 +59,12 @@ repost:
 抖音18万粉丝网红周周乖崽土豪定制视频流出
 ***
 
-{{< admonition type=info title="截屏3" open=false >}}
+{{< admonition type=info title="截屏5" open=false >}}
 {{< image src="fig-2.avif" width="240px" caption="iMessage 2" >}}
 {{< image src="fig-3.avif" width="240px" caption="iMessage 3" >}}
-{{< image src="fig-4.avif" width="240px" caption="iMessage 3" >}}
+{{< image src="fig-4.avif" width="240px" caption="iMessage 4" >}}
+{{< image src="fig-5.avif" width="240px" caption="iMessage 5" >}}
+{{< image src="fig-6.avif" width="240px" caption="iMessage 6" >}}
 {{< /admonition >}}
 
 ### video
@@ -72,8 +74,74 @@ repost:
 
 <iframe
  height=500 width=100%
- src="gt.mp4"
- frameborder=0 allowfullscreen>
+ src="1.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="2.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="3.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="4.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="5.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="6.mp4"
+ frameborder=1 allowfullscreen>
+</iframe>
+{{< /admonition >}}
+
+以下内容不适合 18 岁以下人群观看，请确保此人群远离。
+
+{{< admonition type=warning title="NSFW少儿不宜" open=false >}}
+
+<iframe
+ height=500 width=100%
+ src="7.mp4"
+ frameborder=1 allowfullscreen>
 </iframe>
 {{< /admonition >}}
 
