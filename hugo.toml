@@ -90,7 +90,7 @@ theme = "FixIt"
   #  FixIt theme version
   version = "0.2.15" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
-  description = "瓜田专栏，每周更新反差日记栏目，把内心的小秘密，展示出来吧"
+  description = "瓜田  - 分享各类八卦轻量化吃瓜体验 "
   # site keywords
   keywords = ["瓜", "田"]
   # site default theme ["light", "dark", "auto"]
@@ -133,7 +133,7 @@ theme = "FixIt"
   [params.search]
     enable = true
     # type of search engine ["lunr", "algolia", "fuse"]
-    type = "lunr"
+    type = "fuse"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -206,7 +206,7 @@ theme = "FixIt"
     #  whether to show the author
     author = true
     # Site creation year
-    since = 2021
+    since = 2020
     #  whether to show total word count of site content
     wordCount = true
     #  Public network security only in China (HTML format is supported)
@@ -289,7 +289,7 @@ theme = "FixIt"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 8
+      paginate = 7
 
   #  Social config about the author
   [params.social]
@@ -417,7 +417,7 @@ theme = "FixIt"
     #  end of post flag
     endFlag = ""
     #  whether to enable instant.page
-    instantPage = false
+    instantPage = true
 
     #  Repost config
     [params.page.repost]
@@ -432,7 +432,7 @@ theme = "FixIt"
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
       #  position of TOC ["left", "right"]
-      position = "right"
+      position = "left"
     #  Display a message at the beginning of an article to warn the reader that its content might be expired
     [params.page.expirationReminder]
       enable = false
@@ -532,7 +532,7 @@ theme = "FixIt"
       Mix = false
     #  Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       #  Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
@@ -613,7 +613,7 @@ theme = "FixIt"
         reaction = false # 
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = ""
@@ -817,7 +817,7 @@ theme = "FixIt"
   [params.backToTop]
     enable = true
     # 在 b2t 按钮中显示滚动百分比
-    scrollpercent = true
+    scrollpercent = false
 
   # FixIt 0.2.16 | 新增 阅读进度条
   [params.readingProgress]
@@ -837,7 +837,7 @@ theme = "FixIt"
     enable = true
     # 所有可用颜色：
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
-    color = "yellow"
+    color = "green"
     # 所有可用主题：
     # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
     # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
