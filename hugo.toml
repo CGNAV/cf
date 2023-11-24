@@ -214,7 +214,7 @@ theme = "FixIt"
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://gt321.com/" target="_blank">GT321.com</a>'
     #  Site creation time
     [params.footer.siteTime]
       enable = false
@@ -901,7 +901,7 @@ theme = "FixIt"
 
 # 作者配置
 [author]
-  name = "xxxx"
+  name = "瓜田"
   email = ""
   link = ""
   avatar = "/images/avatar.png" # FixIt 0.2.18 | 新增
