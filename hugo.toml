@@ -595,7 +595,7 @@ theme = "FixIt"
         commentCount = true # 
       #  Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = true
+        enable = false
         serverURL = ""
         pageview = false # 
         emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
@@ -622,7 +622,7 @@ theme = "FixIt"
       [params.page.comment.telegram]
         enable = true
         siteID = "X3GNbels"
-        limit = 5
+        limit = 15
         height = ""
         color = ""
         colorful = true
