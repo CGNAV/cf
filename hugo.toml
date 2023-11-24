@@ -599,7 +599,7 @@ theme = "FixIt"
         serverURL = ""
         pageview = false # 
         emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
-        meta = ["nick"]
+        meta = ["nick", "mail", "link"]
         requiredMeta = []
         login = "enable"
         wordLimit = 0
@@ -686,7 +686,7 @@ theme = "FixIt"
       images = []
       # 出版者信息
       [params.page.seo.publisher]
-        name = ""
+        name = "瓜田"
         logoUrl = ""
 
   # FixIt 0.2.5 | 新增 TypeIt 配置
@@ -834,7 +834,7 @@ theme = "FixIt"
   # FixIt 0.2.17 | 新增 页面加载期间顶部的进度条
   # 有关详细信息：https://github.com/CodeByZach/pace
   [params.pace]
-    enable = false
+    enable = true
     # 所有可用颜色：
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
     color = "yellow"
