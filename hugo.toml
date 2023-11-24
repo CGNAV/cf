@@ -613,14 +613,14 @@ theme = "FixIt"
         reaction = false # 
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = ""
         languageCode = "zh_CN"
       #  Telegram comments config (https://comments.app)
       [params.page.comment.telegram]
-        enable = true
+        enable = false
         siteID = "X3GNbels"
         limit = 5
         height = ""
