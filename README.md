@@ -27,11 +27,11 @@ git submodule update --remote --merge themes/FixIt
 ```
 # git本地上传github
 
-1.init
-1.git add .
-1.git status
-1.git commit -m "秒速"
-1.git push
+1.git init
+2.git add .
+3.git status
+4.git commit -m "秒速"
+5.git push
 
 
 ## 修改主题源码
