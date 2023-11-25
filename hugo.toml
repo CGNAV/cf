@@ -60,7 +60,7 @@ theme = "FixIt"
     url = "/friends/"
     weight = 4
     [menu.main.params]
-      icon = "fa fa-envelope-open"
+      icon = "fa-solid fa-pizza-slice fa-rotate-180"
         [[menu.main]]
     pre = ""
     name = "投稿"
@@ -915,7 +915,7 @@ theme = "FixIt"
 # Permalinks 配置 (https://gohugo.io/content-management/urls#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+   "/" = "/:year/:month/:filename/"
 
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
