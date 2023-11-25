@@ -1,5 +1,5 @@
 ---
-slug: edge-helper
+slug: What？ Edge 浏览器无法显示图片
 title: What？ Edge 浏览器无法显示图片
 subtitle:
 date: 2023-05-20T15:09:47+08:00

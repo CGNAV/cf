@@ -1,5 +1,5 @@
 ---
-slug: yyyd
+slug: 亿元亿顿
 title: 亿元亿顿
 
 subtitle:
