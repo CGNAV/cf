@@ -33,6 +33,8 @@ git submodule update --remote --merge themes/FixIt
 4.git commit -m "秒速"
 5.git push
 
+git reset .  这个是撤销add .
+
 
 ## 修改主题源码
 
