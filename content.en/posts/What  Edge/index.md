@@ -1,18 +1,19 @@
 ---
-slug: edge-helper
+slug: What Edge 
 title: What？ Edge 浏览器无法显示图片
 subtitle:
 date: 2023-05-20T15:09:47+08:00
 draft: false
 author:
-  name: 瓜农
+  name: Am
   link:
   email:
-  avatar: https://smms.app/image/baizBKyonVStPrq
+  avatar: 
+description:
 keywords:
 license:
 comment: true
-weight: 20
+weight: 1
 tags:
   - 关于
 categories:
@@ -41,7 +42,7 @@ repost:
 
 ## 前言
 
-{{< image src="/site-logo.avif" width="640px" caption="如果这张图片正常显示，那么你无需担心" >}}
+{{< image src="/site-logo.avif" width="540px" caption="如果这张图片正常显示，那么你无需担心" >}}
 
 大家在用Edge浏览器的时候可能发现图片无法显示，这是因为Edge浏览器暂不支持AVIF图像格式，建议换别的浏览器，只要比较新的都可以。
 目前微软正计划在其Edge浏览器中增加对avif格式的支持，该浏览器基于与chrome相同的内核. 
