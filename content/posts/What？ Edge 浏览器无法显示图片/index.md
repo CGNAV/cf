@@ -8,8 +8,7 @@ author:
   name: 瓜农
   link:
   email:
-  avatar: https://i1.wp.com/img.lootiu.com/s00/cmQvTkFOWkFhaHdiSktBUnYyTmFvbTczTWp6bGU5TUl4SWxYczFCMFdDQT0-d.jpg
-description:
+  avatar: 
 keywords:
 license:
 comment: true
