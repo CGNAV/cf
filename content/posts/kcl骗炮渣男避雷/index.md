@@ -15,16 +15,15 @@ license:
 comment: true
 weight: 0
 tags:
-  - UK
-  - KCL
-  - Boy
-  - Sex
-  - Fraud
-  - Infidelity
-  - Harassment
-  - Criminal
+  - 英国
+  - 倫敦國王學院
+  - 男生
+  - 不忠
+  - 骚扰
+  - 刑事
+  - 欺骗
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 邢乐聪曾多次以谈恋爱的名义出现欺骗女性，且行为单调，试图动手动脚一再受到拒绝。 多名女性公开揭露了邢乐聪的行径，包括其中一位女性所发生的具体经历。 邢乐聪被曝光后，威胁当事人、继续作出威胁和恐吓等行为，该事件目前正在调查中。

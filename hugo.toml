@@ -572,7 +572,7 @@ theme = "FixIt"
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = ""
         appKey = ""
         placeholder = ""
@@ -613,7 +613,7 @@ theme = "FixIt"
         reaction = false # 
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
-        enable = true
+        enable = false
         width = "100%"
         numPosts = 10
         appId = ""
@@ -622,18 +622,18 @@ theme = "FixIt"
       [params.page.comment.telegram]
         enable = true
         siteID = "X3GNbels"
-        limit = 15
-        height = ""
+        limit = 25
+        height = "5"
         color = ""
         colorful = true
         dislikes = false
         outlined = false
       #  Commento comment config (https://commento.io)
       [params.page.comment.commento]
-        enable = false
+        enable = true
       #  Utterances comment config (https://utteranc.es)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
         repo = ""
         issueTerm = "pathname"

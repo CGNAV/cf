@@ -15,13 +15,13 @@ license:
 comment: true
 weight: 0
 tags:
-  - Boy
+  - 男生
   - Australia
   - USYD
-  - Sex
-  - Seducing
-  - Harassment
-  - Language Abuse
+  - 性別
+  - 誘惑
+  - 騷擾
+  - 語言濫用
 categories:
   - GOSSIP
 hiddenFromHomePage: false

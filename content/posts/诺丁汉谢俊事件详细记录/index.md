@@ -18,11 +18,11 @@ tags:
   - Nottingham
   - UK
   - PUA
-  - Violence
-  - UoN
-  - Boy
+  - 暴力
+  - 北方大學
+  - 男生
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 本文详细描写了留学生露露与谢俊之间的爱情经历，包括极不靠谱的身份造假、虚伪和PUA等行为。内容还涵盖谢俊对于物品的计较、自私以及身体暴力和心理冷暴力造成的露露的精神伤害等，助读者了解留学生们在异国他乡的生活。

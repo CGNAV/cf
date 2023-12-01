@@ -15,13 +15,12 @@ license:
 comment: true
 weight: 0
 tags:
-  - Sydney
-  - High School
-  - Slander
-  - Boy
-  - Australia
+  - 中學
+  - 誹謗
+  - 男生
+  - 澳大利亞
 categories:
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 本文揭露了悉尼一位高中生A的不当行为，包括恶意传播谣言、背后诋毁同学、不珍惜友情和恋爱关系等。我们应该以理解和耐心的态度对待他人的错误，并鼓励他们反思并改正错误。

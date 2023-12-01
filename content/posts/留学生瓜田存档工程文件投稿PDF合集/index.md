@@ -16,7 +16,7 @@ comment: true
 weight: 0
 tags:
   - PDF
-  - Files
+  - 文件
 categories:
   - Files
 hiddenFromHomePage: false
@@ -50,7 +50,7 @@ repost:
 ### 瓜田 Neo 重写过的 PDF
 
 {{< admonition type=info title="OSS" open=true >}}
-这些内容在 [**瓜田 Neo**](https://neo.schoolmelon.com/) 重写的过程中上传到了OSS，各位可以直接访问。但是我推荐去 瓜田Neo 察看重写后的内容，比PDF观感更好。
+这些内容在 [**瓜田 **](https://neo.schoolmelon.com/) 重写的过程中上传到了OSS，各位可以直接访问。但是我推荐去 瓜田 察看重写后的内容，比PDF观感更好。
 {{< /admonition >}}
 
 - [ucsd瓜.pdf](https://oss.schoolmelon.com/source/uscd-yuqiyann.pdf)

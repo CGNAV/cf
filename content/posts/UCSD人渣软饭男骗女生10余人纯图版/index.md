@@ -16,17 +16,17 @@ comment: true
 weight: 0
 tags:
   - UCSD
-  - Boy
-  - Criminal
-  - US
-  - Theft
-  - Infidelity
-  - Animal Cruelty
-  - Freeloading
-  - Fraud
-  - Seducing
+  - 男生
+  - 刑事
+  - 我們
+  - 竊盜
+  - 不忠
+  - 虐待動物
+  - 貪圖便宜
+  - 欺詐罪
+  - 誘惑
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 罗骏哲多次违法、恶劣行为被曝光，包括偷盗室友现金和信用卡、虐待猫咪、嫖娼、吃软饭、多收大家的钱等。他还设置朋友的网上银行账户定期向他转钱，违法并对朋友欺诈。在玩游戏时还会悄悄使用外挂进行欺骗。

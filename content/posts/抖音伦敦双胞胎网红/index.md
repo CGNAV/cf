@@ -16,13 +16,13 @@ comment: true
 weight: 0
 tags:
   - UK
-  - UoL
-  - London
-  - Freeloading
-  - Boy
-  - Language Abuse
+  - 倫敦大學學院
+  - 倫敦
+  - 貪圖便宜
+  - 男生
+  - 語言濫用
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 该篇文章曝光了在伦敦留学的朋友秦梓越的哥哥和女友的一系列违法行为，他们盗取他人手机、随意发朋友圈、擅自穿用他人贵重物品等。此外，他们还没有及时归还并损坏了贵重衣物，但并未提出任何形式的赔偿。文章同时呼吁被整合者谨慎保护自己的财产和权益，不应该因赞同或好感而遭受物品被随意使用和言语辱骂等违法行为的侵害。

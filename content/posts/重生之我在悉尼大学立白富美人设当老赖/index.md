@@ -17,10 +17,10 @@ weight: 0
 tags:
   - Australia
   - USYD
-  - Girl
-  - Fraud
+  - 女孩
+  - 欺詐罪
 categories:
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 留学生王正太在租房期间未付剩余房租，又不支付修片费用；同时，她还在社交媒体上展现出娇生惯养的形象，并让摄影师白嫖。这些行为引发社交媒体上的强烈争议和讨论。报道揭露了这些不良行为，并呼吁留学生们树立正确的租房和人际交往观念。

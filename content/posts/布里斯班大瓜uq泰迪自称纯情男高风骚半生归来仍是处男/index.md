@@ -15,14 +15,14 @@ license:
 comment: true
 weight: 0
 tags:
-  - Boy
+  - 男生
   - Australia
   - UQ
-  - Seducing
-  - Harassment
-  - Language Abuse
+  - 誘惑
+  - 騷擾
+  - 語言濫用
 categories:
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 这个故事讲述了一个名叫Pete Wei的骗子，他用欺骗、骗钱、骗感情的手法骗取女性。他甚至会敲诈勒索，像一个社会败类一样。此外，他也读过预科，对深圳和澳大利亚的女性都有欺骗行为。这个故事揭示了欺骗、骗钱和骗感情的现代城市陷阱，提醒女性增强自我保护意识。

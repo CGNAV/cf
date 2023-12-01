@@ -17,15 +17,15 @@ weight: 0
 tags:
   - US
   - UCSD
-  - Girl
+  - 女孩
   - PUA
-  - Seducing
-  - Slander
-  - Sex
-  - Academic Integrity
-  - Freeloading
+  - 誘惑
+  - 誹謗
+  - 性別
+  - 學術誠信
+  - 貪圖便宜
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 李卓凡Caroline是加州大学圣地亚哥分校中国同学联合会的现任主席。但是在她的前男友的翻旧账中曝出了她多项渣女行为，让她的形象彻底跌落。其中包括骗取男友金钱、故意制造男友家暴谎言、欠债学费不还、作假语言考试成绩、与多名男生暧昧聊天并发生未保护性行为等。这些行为让她声名狼藉，对她未来的人际关系和事业发展都将带来极大的影响。

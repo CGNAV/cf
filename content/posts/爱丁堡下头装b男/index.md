@@ -16,11 +16,11 @@ comment: true
 weight: 0
 tags:
   - UK
-  - UoE
-  - Edinburgh
-  - Boy
+  - 聯合王國
+  - 愛丁堡
+  - 男生
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 一位前女友在社交媒体上曝光了留学生张启航恋爱期间及分手后的行为。被曝光的不当行为包括言语上的不尊重、贪图女友钱财、对礼物的不认真态度等。文章也讲述了成功主义的张启航为报复前女友而进行的反叛行径，引起了社会'stay tuned'的关注和讨论。

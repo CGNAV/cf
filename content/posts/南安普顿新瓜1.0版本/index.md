@@ -15,14 +15,14 @@ license:
 comment: true
 weight: 0
 tags:
-  - Southampton
-  - Soton
+  - 南安普敦
+  - 索頓
   - UK
-  - Boy
-  - Infidelity
-  - Seducing
+  - 男生
+  - 不忠
+  - 誘惑
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 本次事件的渣男某孙姓同学成功地诠释了“英国没有感情”这句话。如果不是梦境的提示，我们可能永远无法知道这位纯爱战士已经跌倒多少次。以下是聊天记录，也是男主丑陋嘴脸的证据。

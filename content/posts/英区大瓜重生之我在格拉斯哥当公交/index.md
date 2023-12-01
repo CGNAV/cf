@@ -16,11 +16,11 @@ comment: true
 weight: 0
 tags:
   - UK
-  - Girl
-  - Infidelity
-  - Glasgow
+  - 女孩
+  - 不忠
+  - 格拉斯哥
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 男子和前女友wzy在上海同居，后者多次骗人，并出轨不断。男子在回国相聚的时候，看到关于前男友在春节期间一直和wzy一起玩，二人之间发生了什么不得而知。他想尝试在英国和前女友继续在一起，但发现前女友已经和其他人有了联系。随着感情的发展与瓦解，男子在本文中详细描述了与前女友的种种经历，包括前女友的骗人、出轨不断，以及最终分手的原因。同时，男子还直指前女友的扭曲价值观和母亲教育不当。

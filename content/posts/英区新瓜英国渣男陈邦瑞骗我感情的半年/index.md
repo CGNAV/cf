@@ -16,10 +16,10 @@ comment: true
 weight: 0
 tags:
   - UK
-  - Boy
-  - Infidelity
+  - 男生
+  - 不忠
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 文中女生在半年的相处中萌生感情，但晚上被陈邦瑞告知有英国女友，并让女生立刻飞到英国陪他。女生上当后，被陌生女子通话攻击，并陷入伤痛和失落中。文中还附有与该女子的对话记录。

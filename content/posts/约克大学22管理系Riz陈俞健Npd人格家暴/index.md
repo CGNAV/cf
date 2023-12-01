@@ -17,13 +17,13 @@ weight: 0
 tags:
   - YU
   - PUA
-  - Violence
-  - Infidelity
-  - NPD
-  - Boy
+  - 暴力
+  - 不忠
+  - 新產品開發
+  - 男生
   - CA
 categories:
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 这篇文章揭露了一个以虚假承诺为代价的现代爱情悲剧。这位女孩被一个已婚男人欺骗进入了虎穴。她所描述的故事充满了痛苦和心碎，她一直对他宽容，但他却只在乎自己的感受。一个已婚男人的行为，让她经历了家暴，受到了精神和情感的伤害。这个故事令人唏嘘，因为许多人在现实生活中都有类似的经历。本文提供了一个反思的思考，揭示了现代男女关系中的不平等性和错综复杂的情感网。

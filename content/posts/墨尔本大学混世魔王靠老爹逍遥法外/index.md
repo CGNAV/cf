@@ -15,18 +15,18 @@ license:
 comment: true
 weight: 0
 tags:
-  - UM
-  - Melb
-  - Australia
-  - Boy
-  - Girl
-  - Violence
-  - Criminal
-  - Harassment
-  - Academic Integrity
-  - Slander
+  - 密西根大學
+  - 墨爾本
+  - 澳大利亞
+  - 男生
+  - 女孩
+  - 暴力
+  - 刑事
+  - 騷擾
+  - 學術誠信
+  - 誹謗
 categories:
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 该文章描述了一名墨尔本大学学生混世魔王，被指责多次违规行为，包括打人，造成人身伤害、违反交通规则等。然而该指控存在一定的存疑，部分描述为虚假描述。文章的来历和真实性备受质疑，引发了大量争议。

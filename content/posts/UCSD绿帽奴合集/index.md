@@ -15,12 +15,12 @@ license:
 comment: true
 weight: 0
 tags:
-  - US
+  - 美国
+  - 加州大學聖地牙哥分校
   - UCSD
-  - Sex
-  - Infidelity
+  - 不忠
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: UCSD Rady商学院的在线硕士项目询问环节中，一位中国女生的摄像头被打开，全程展示自己和一位男生发生性关系。随后，该事件在该校校园内部爆发，一名男子自称“绿帽哥”在一系列八卦群、论坛和小红书上爆料，透露大量学生的性爱照片和视频，引发轩然大波。此事件引起了校内外广泛的关注和谴责，同时也揭开了该校园内部的不同声音和复杂的人际关系。

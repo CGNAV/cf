@@ -15,19 +15,15 @@ license:
 comment: true
 weight: 0
 tags: 
-  - Boy
-  - Girl
+  - 男孩
+  - 女孩
   - PUA
-  - Slander
-  - Sex
-  - Harassment
-  - China
-  - Criminal
-  - GCGS
-  - Guangdong
-  - Infidelity
+  - 诽谤性
+  - 骚扰
+  - 不忠
+  - 廣東
 categories: 
-  - GOSSIP
+  - 八卦
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 此文讲述杜佳女士指控广东碧桂园国际学校周屹霖的多项不当行为，包括酒后猥亵女生、偷窥女生内衣、恶意诽谤前女友、辱女言论等，表现出其缺乏道德底线，男方指责女方内容不实。

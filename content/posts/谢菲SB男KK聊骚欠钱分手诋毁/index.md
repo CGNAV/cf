@@ -17,14 +17,14 @@ weight: 0
 tags:
   - UK
   - Sheffield
-  - TUoS
-  - Infidelity
-  - Boy
-  - Seducing
-  - Language Abuse
-  - Slander
+  - TUOS
+  - 不忠
+  - 男生
+  - 誘惑
+  - 語言濫用
+  - 誹謗
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 在和阚博文交往的10个月里，作者遭遇了这位男子的种种折磨。阚博文向作者借钱并不断诋毁她，甚至在分手后之后对其进行攻击和恶意谣言；金钱方面，作者共为阚博文垫付了近10万人民币，并存在纠纷无法解决。本文揭露了阚博文的罪行和女友所受的伤害，探讨了这种侵害个人财产和精神健康的不道德行为。

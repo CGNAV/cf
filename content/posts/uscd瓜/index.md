@@ -16,15 +16,15 @@ comment: true
 weight: 0
 tags:
   - UCSD
-  - Girl
-  - Shanghai
-  - Drug
-  - Baby
-  - Criminal
+  - 女孩
+  - 上海
+  - 藥物
+  - 嬰兒
+  - 刑事
   - China
   - US
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 此文曝光了外围女留学生颜宇琪，她将自己的亲生儿子留在充满气瓶和失禁的尿池中去吃海胆约会，孩子最终饿死。颜女士在走投无路之下，敲诈勒索前男友C，要求他处理她留在美国的麻烦事情，包括公寓罚款、搬家清洁费用和行李运费等，最终威胁C，若不付款则进行毒舌诽谤。

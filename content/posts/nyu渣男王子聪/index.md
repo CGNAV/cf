@@ -15,16 +15,14 @@ license:
 comment: true
 weight: 0
 tags:
-  - NYU
-  - US
-  - Boy
-  - PUA
-  - Animal Cruelty
-  - Violence
-  - Secretly Filming
-  - Slander
+  - 紐約大學
+  - 虐待動物
+  - 誹謗
+  - 秘密拍攝
+  - 暴力
+  - 美国
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 一个男子的多项罪行被曝光，包括编造虚拟朋友骗钱、虐待宠物、编排前任、造谣堕胎、威胁家暴等。此外，他还喜欢发女孩子隐私照和偷拍等种种不良行为，让人震惊。这个男子的罪行严重，需要得到法律的制裁和惩罚。

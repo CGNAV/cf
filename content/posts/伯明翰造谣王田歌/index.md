@@ -16,12 +16,12 @@ comment: true
 weight: 0
 tags:
   - UK
-  - UoB
-  - Slander
-  - Girl
-  - Criminal
+  - 大華銀行
+  - 誹謗
+  - 女孩
+  - 刑事
 categories:
-  - GOSSIP
+  - 英区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 本文揭露了一位93年大姐在网络上肆意侵犯别人的隐私、散布谣言、惨遭人肉的不道德行为。作者从自身经历出发，讲述了大姐用截屏、挂朋友圈照片、人肉等手段对他人进行不断的骚扰，造成极大的心理压力，对受害者造成了严重的精神和人身伤害。同时，本文呼吁对网络欺凌和诽谤行为予以严肃打击，保护每个人的合法权益和尊严。

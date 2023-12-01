@@ -15,15 +15,14 @@ license:
 comment: true
 weight: 0
 tags:
-  - US
-  - UCSD
-  - Boy
-  - Girl
-  - Sex
-  - Infidelity
-  - Seducing
+  - 美国
+  - 加州大學聖地牙哥分校
+  - 男孩
+  - 女孩
+  - 誘惑
+  - 不忠
 categories:
-  - GOSSIP
+  - 美区瓜田
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary: 在UCSD加州大学圣地亚哥分校，一名男生在图书馆卫生间与女同学进行解压运动被其女友发现。女友在男友手机中发现了出轨多名女性的聊天、约炮证据，当中包括了不同年龄、职位和身份的女性。该女生将证据发到多个课群，引发了学校内部的轰动。事件涉及到了一名已婚已孕的在校生物PHD、一位在职初中教师（现在UCSD读研）、各种学姐学妹和外国同学等，其中多位女生在视频中坦言自己已经有了男友。
