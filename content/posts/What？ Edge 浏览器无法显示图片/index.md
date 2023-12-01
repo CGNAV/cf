@@ -17,7 +17,7 @@ weight: 20
 tags:
   - 关于
 categories:
-  - 常见问题
+  - 常见问题.
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:

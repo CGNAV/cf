@@ -572,7 +572,7 @@ theme = "FixIt"
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = ""
         appKey = ""
         placeholder = ""
@@ -595,7 +595,7 @@ theme = "FixIt"
         commentCount = true # 
       #  Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = false
+        enable = true
         serverURL = ""
         pageview = false # 
         emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
