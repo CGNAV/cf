@@ -560,7 +560,7 @@ theme = "FixIt"
         versionCheck = true
       #  Disqus comment config (https://disqus.com)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
         shortname = ""
       #  Gitalk comment config (https://github.com/gitalk/gitalk)
@@ -572,7 +572,7 @@ theme = "FixIt"
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = false
+        enable = true
         appId = ""
         appKey = ""
         placeholder = ""
@@ -622,8 +622,8 @@ theme = "FixIt"
       [params.page.comment.telegram]
         enable = true
         siteID = "X3GNbels"
-        limit = 25
-        height = "5"
+        limit = 15
+        height = "5px"
         color = ""
         colorful = true
         dislikes = false
@@ -633,7 +633,7 @@ theme = "FixIt"
         enable = false
       #  Utterances comment config (https://utteranc.es)
       [params.page.comment.utterances]
-        enable = fales
+        enable = false
         # owner/repo
         repo = ""
         issueTerm = "pathname"
@@ -834,7 +834,7 @@ theme = "FixIt"
   # FixIt 0.2.17 | 新增 页面加载期间顶部的进度条
   # 有关详细信息：https://github.com/CodeByZach/pace
   [params.pace]
-    enable = false
+    enable = true
     # 所有可用颜色：
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
     color = "green"
@@ -904,7 +904,7 @@ theme = "FixIt"
   name = "瓜田"
   email = ""
   link = ""
-  avatar = "https://smms.app/image/baizBKyonVStPrq" # FixIt 0.2.18 | 新增
+  avatar = "/images/avatar.png" # FixIt 0.2.18 | 新增
 
 # 网站地图配置
 [sitemap]

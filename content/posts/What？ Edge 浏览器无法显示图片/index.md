@@ -8,7 +8,7 @@ author:
   name: Am
   link:
   email:
-  avatar: https://smms.app/image/baizBKyonVStPrq
+  avatar: 
 description:
 keywords:
 license:
