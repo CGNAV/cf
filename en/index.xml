@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>瓜田</title><link>https://gt321.com/en/</link><description>瓜田 - 分享各类八卦轻量化吃瓜体验</description><generator>Hugo 0.138.0 &amp; FixIt v0.3.14</generator><language>en</language><lastBuildDate>Fri, 24 Nov 2023 13:01:14 +0800</lastBuildDate><atom:link href="https://gt321.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>What？ Edge 浏览器无法显示图片</title><link>https://gt321.com/en/posts/what-edge/</link><pubDate>Sat, 20 May 2023 15:09:47 +0800</pubDate><guid>https://gt321.com/en/posts/what-edge/</guid><category domain="https://gt321.com/en/categories/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">常见问题</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
+ &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/site-logo.avif?size=large" data-thumbnail="/site-logo.avif?size=small" data-sub-html="&lt;h2>如果这张图片正常显示，那么你无需担心&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/site-logo.avif" alt="/site-logo.avif" srcset="https://gt321.com/site-logo.avif?size=small, https://gt321.com/site-logo.avif?size=medium 1.5x, https://gt321.com/site-logo.avif?size=large 2x" data-title="/site-logo.avif" width="540px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">如果这张图片正常显示，那么你无需担心&lt;/figcaption>
+ &lt;/figure>
+&lt;p>大家在用Edge浏览器的时候可能发现图片无法显示，这是因为Edge浏览器暂不支持AVIF图像格式，建议换别的浏览器，只要比较新的都可以。
+目前微软正计划在其Edge浏览器中增加对avif格式的支持，该浏览器基于与chrome相同的内核.&lt;/p>
+&lt;h2 id="avif是什么" class="heading-element">&lt;span>AVIF是什么&lt;/span>
+ &lt;a href="#avif%e6%98%af%e4%bb%80%e4%b9%88" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>AVIF是一种新的图像格式基于av1视频编码的图像编码，差不多两年前开始普及，它可以大大缩小图像的体积，这代来的不只是节省空间，还有更快的加载速度。
+Edge加入avif支援，意味浏览器使用者将可受惠于该格式的更高效率，chrome已支援该格式两年。
+在我的实际测试中，相比PNG减少90%的体积都是常见的事情。&lt;/p>
+&lt;h2 id="edge有什么问题" class="heading-element">&lt;span>Edge有什么问题&lt;/span>
+ &lt;a href="#edge%e6%9c%89%e4%bb%80%e4%b9%88%e9%97%ae%e9%a2%98" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>我也不知道Edge为什么2年了还不支持，而且它用的还是Chromium内核，和Chrome一样的。Chrome都支持了，Safari都支持了，Firefox也支持了，就它不支持。&lt;/p>
+&lt;p>而且Edge也能播放AV1编码的视频，不知道为什么同属于AV1编码的AVIF就是不支持。&lt;/p>
+&lt;h2 id="为什么坚持使用avif" class="heading-element">&lt;span>为什么坚持使用AVIF&lt;/span>
+ &lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%9d%9a%e6%8c%81%e4%bd%bf%e7%94%a8avif" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>我本人对网页有执念，我希望用最先进的技术，最先进的格式，即便有一点点不兼容。B站也用上了AVIF，不过还没有像我这样激进吧。&lt;/p>
+&lt;p>介于各位留学生用的都是比较新的科技，我就不改了，如果确实无法接受这样激进的策略，下面留言，或者反馈吧，感谢。&lt;/p>
+&lt;h2 id="为什么我要更新浏览器" class="heading-element">&lt;span>为什么我要更新浏览器&lt;/span>
+ &lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e6%88%91%e8%a6%81%e6%9b%b4%e6%96%b0%e6%b5%8f%e8%a7%88%e5%99%a8" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>一个是浏览器经常有安全漏洞，更新准没错。&lt;/p>
+&lt;p>其次是浏览器经常有一些很好的特性，比如Chrome前不久的自动休眠Tab功能，你可以省下大量的内存，何乐不为。&lt;/p>
+&lt;p>最后也就是兼容性问题，像AVIF这样造福人们的黑科技，也得靠你们普及不是？&lt;/p></description></item><item><title>狗子与我</title><link>https://gt321.com/en/posts/gzyw/</link><pubDate>Fri, 24 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/gzyw/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[狗子与我]--黑历史XX视频流出&lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/gzyw/fig-1.avif?size=large" data-thumbnail="/en/posts/gzyw/fig-1.avif?size=small" data-sub-html="&lt;h2>狗子与我&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/gzyw/fig-1.avif" alt="/en/posts/gzyw/fig-1.avif" srcset="https://gt321.com/en/posts/gzyw/fig-1.avif?size=small, https://gt321.com/en/posts/gzyw/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/gzyw/fig-1.avif?size=large 2x" data-title="/en/posts/gzyw/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">狗子与我&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>人红是非多，只要但凡有点流量了，总会有人把黑历史给翻出来，即便是紧急辟谣，但大部分网友不买账，毕竟太像了，除非是双胞胎&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏3&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/gzyw/fig-2.avif?size=large" data-thumbnail="/en/posts/gzyw/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/gzyw/fig-2.avif" alt="/en/posts/gzyw/fig-2.avif" srcset="https://gt321.com/en/posts/gzyw/fig-2.avif?size=small, https://gt321.com/en/posts/gzyw/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/gzyw/fig-2.avif?size=large 2x" data-title="/en/posts/gzyw/fig-2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/gzyw/fig-3.avif?size=large" data-thumbnail="/en/posts/gzyw/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/gzyw/fig-3.avif" alt="/en/posts/gzyw/fig-3.avif" srcset="https://gt321.com/en/posts/gzyw/fig-3.avif?size=small, https://gt321.com/en/posts/gzyw/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/gzyw/fig-3.avif?size=large 2x" data-title="/en/posts/gzyw/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/gzyw/fig-4.avif?size=large" data-thumbnail="/en/posts/gzyw/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 4&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/gzyw/fig-4.avif" alt="/en/posts/gzyw/fig-4.avif" srcset="https://gt321.com/en/posts/gzyw/fig-4.avif?size=small, https://gt321.com/en/posts/gzyw/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/gzyw/fig-4.avif?size=large 2x" data-title="/en/posts/gzyw/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 4&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">视频时长太长，后面在更新&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>kj.hgiuyyb.nmk.g&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>爱可可❤</title><link>https://gt321.com/en/posts/akk/</link><pubDate>Tue, 21 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/akk/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[爱可可❤]-- 辣妈，跟榜一大哥开房&lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/akk/fig-1.avif?size=large" data-thumbnail="/en/posts/akk/fig-1.avif?size=small" data-sub-html="&lt;h2>爱可可❤&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/akk/fig-1.avif" alt="/en/posts/akk/fig-1.avif" srcset="https://gt321.com/en/posts/akk/fig-1.avif?size=small, https://gt321.com/en/posts/akk/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/akk/fig-1.avif?size=large 2x" data-title="/en/posts/akk/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">爱可可❤&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>近抖音各种网红频繁落网，这次又是一个抖音的小网红。ID 爱可可，在抖音上也有着20来万的粉丝，虽然不是什么大网红，但是也是小有名气了。
+这次又是被曝光，和金主爸爸啪啪，视频被了流出。从视频来看，爱可可无论是身材还是颜值都是相当不错的，但是没办法现在的主播行业那么内卷，不擦边不跟金主爸爸陪睡，哪里有流量。在加上现在的自媒体的崛起，让很多原本是做着外围的，都成为了网红。虽然是网红但是偶尔再接个单页是可以的。挣钱嘛 不寒碜。嘿嘿&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏5&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/akk/fig-2.avif?size=large" data-thumbnail="/en/posts/akk/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/akk/fig-2.avif" alt="/en/posts/akk/fig-2.avif" srcset="https://gt321.com/en/posts/akk/fig-2.avif?size=small, https://gt321.com/en/posts/akk/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/akk/fig-2.avif?size=large 2x" data-title="/en/posts/akk/fig-2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/akk/fig-3.avif?size=large" data-thumbnail="/en/posts/akk/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/akk/fig-3.avif" alt="/en/posts/akk/fig-3.avif" srcset="https://gt321.com/en/posts/akk/fig-3.avif?size=small, https://gt321.com/en/posts/akk/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/akk/fig-3.avif?size=large 2x" data-title="/en/posts/akk/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/akk/fig-4.avif?size=large" data-thumbnail="/en/posts/akk/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 4&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/akk/fig-4.avif" alt="/en/posts/akk/fig-4.avif" srcset="https://gt321.com/en/posts/akk/fig-4.avif?size=small, https://gt321.com/en/posts/akk/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/akk/fig-4.avif?size=large 2x" data-title="/en/posts/akk/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 4&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/akk/fig-5.avif?size=large" data-thumbnail="/en/posts/akk/fig-5.avif?size=small" data-sub-html="&lt;h2>iMessage 5&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/akk/fig-5.avif" alt="/en/posts/akk/fig-5.avif" srcset="https://gt321.com/en/posts/akk/fig-5.avif?size=small, https://gt321.com/en/posts/akk/fig-5.avif?size=medium 1.5x, https://gt321.com/en/posts/akk/fig-5.avif?size=large 2x" data-title="/en/posts/akk/fig-5.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 5&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="1.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="2.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="3.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="4.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="5.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>爱可可❤&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>kj.hgiuyyb.nmk.g</title><link>https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/</link><pubDate>Tue, 14 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[kj.hgiuyyb.nmk.g]--直播间敲鼓秀“乳” 艺&lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif?size=large" data-thumbnail="/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif?size=small" data-sub-html="&lt;h2>kj.hgiuyyb.nmk.g&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif" alt="/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif" srcset="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif?size=small, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif?size=large 2x" data-title="/en/posts/kj.hgiuyyb.nmk.g/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">kj.hgiuyyb.nmk.g&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>主播情绪到位，动作过大，导致大胸走光！目测单一个大奶都要5斤起步！此时直播间好多粉丝疯狂吃瓜，有多个老司机直呼大胸是木瓜型的，但是好像有点下垂呢，白吃的大瓜还挑啥呢~&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏3&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif?size=large" data-thumbnail="/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif" alt="/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif" srcset="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif?size=small, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif?size=large 2x" data-title="/en/posts/kj.hgiuyyb.nmk.g/fig-2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif?size=large" data-thumbnail="/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif" alt="/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif" srcset="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif?size=small, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif?size=large 2x" data-title="/en/posts/kj.hgiuyyb.nmk.g/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif?size=large" data-thumbnail="/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif" alt="/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif" srcset="https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif?size=small, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif?size=large 2x" data-title="/en/posts/kj.hgiuyyb.nmk.g/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="gt.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>kj.hgiuyyb.nmk.g&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>月月大小姐</title><link>https://gt321.com/en/posts/yydxj/</link><pubDate>Thu, 16 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/yydxj/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[月月大小姐]--“裸聊” &lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/1.avif?size=large" data-thumbnail="/en/posts/yydxj/1.avif?size=small" data-sub-html="&lt;h2>月月大小姐改：亚古兽进化&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/1.avif" alt="/en/posts/yydxj/1.avif" srcset="https://gt321.com/en/posts/yydxj/1.avif?size=small, https://gt321.com/en/posts/yydxj/1.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/1.avif?size=large 2x" data-title="/en/posts/yydxj/1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">月月大小姐改：亚古兽进化&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>抖音月月大小姐
+一位主播月月大小姐，是一位英雄联盟女玩家，奈何技术不行，想上王者就请了个免费打手代打，两人视频连线想给打手一些福利，没想到打手不是那种人，不吃这一套，于是将画面录了下来，更搞笑的是期间大小姐的家里人回来了，吓得大小姐急急忙忙穿胖次，呵，那场面滑稽又狼狈。如今其抖音作品全部隐藏，朋友圈也看不到了。&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏7&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/2.avif?size=large" data-thumbnail="/en/posts/yydxj/2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/2.avif" alt="/en/posts/yydxj/2.avif" srcset="https://gt321.com/en/posts/yydxj/2.avif?size=small, https://gt321.com/en/posts/yydxj/2.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/2.avif?size=large 2x" data-title="/en/posts/yydxj/2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/3.avif?size=large" data-thumbnail="/en/posts/yydxj/3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/3.avif" alt="/en/posts/yydxj/3.avif" srcset="https://gt321.com/en/posts/yydxj/3.avif?size=small, https://gt321.com/en/posts/yydxj/3.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/3.avif?size=large 2x" data-title="/en/posts/yydxj/3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/4.avif?size=large" data-thumbnail="/en/posts/yydxj/4.avif?size=small" data-sub-html="&lt;h2>iMessage 4&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/4.avif" alt="/en/posts/yydxj/4.avif" srcset="https://gt321.com/en/posts/yydxj/4.avif?size=small, https://gt321.com/en/posts/yydxj/4.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/4.avif?size=large 2x" data-title="/en/posts/yydxj/4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 4&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/5.avif?size=large" data-thumbnail="/en/posts/yydxj/5.avif?size=small" data-sub-html="&lt;h2>iMessage 5&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/5.avif" alt="/en/posts/yydxj/5.avif" srcset="https://gt321.com/en/posts/yydxj/5.avif?size=small, https://gt321.com/en/posts/yydxj/5.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/5.avif?size=large 2x" data-title="/en/posts/yydxj/5.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 5&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/6.avif?size=large" data-thumbnail="/en/posts/yydxj/6.avif?size=small" data-sub-html="&lt;h2>iMessage 6&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/6.avif" alt="/en/posts/yydxj/6.avif" srcset="https://gt321.com/en/posts/yydxj/6.avif?size=small, https://gt321.com/en/posts/yydxj/6.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/6.avif?size=large 2x" data-title="/en/posts/yydxj/6.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 6&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yydxj/7.avif?size=large" data-thumbnail="/en/posts/yydxj/7.avif?size=small" data-sub-html="&lt;h2>iMessage 7&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yydxj/7.avif" alt="/en/posts/yydxj/7.avif" srcset="https://gt321.com/en/posts/yydxj/7.avif?size=small, https://gt321.com/en/posts/yydxj/7.avif?size=medium 1.5x, https://gt321.com/en/posts/yydxj/7.avif?size=large 2x" data-title="/en/posts/yydxj/7.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 7&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜1&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="1.mp4"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>月月大小姐&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>就叫阿銮</title><link>https://gt321.com/en/posts/a-lu%C3%A1n/</link><pubDate>Tue, 14 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/a-lu%C3%A1n/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[就叫阿銮]--麻将桌上“啪啪啪” &lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-1.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-1.avif?size=small" data-sub-html="&lt;h2>就叫阿銮&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-1.avif" alt="/en/posts/a-lu%C3%A1n/fig-1.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-1.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-1.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">就叫阿銮&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>阿銮打麻将是抖音的一位视频主播，打麻将非常厉害，一直连胜，我叫阿銮打麻将就是用来说自己麻将技术好的梗，因为使用次数多所以成立网络热梗。
+但是我没想到打麻将原来是这样打，叫这么大声是不是打疼了啊？&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏6&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-2.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-2.avif" alt="/en/posts/a-lu%C3%A1n/fig-2.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-2.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-2.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-2.avif" width="550px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-3.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-3.avif" alt="/en/posts/a-lu%C3%A1n/fig-3.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-3.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-3.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-4.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-4.avif" alt="/en/posts/a-lu%C3%A1n/fig-4.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-4.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-4.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-5.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-5.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-5.avif" alt="/en/posts/a-lu%C3%A1n/fig-5.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-5.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-5.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-5.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-5.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-6.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-6.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-6.avif" alt="/en/posts/a-lu%C3%A1n/fig-6.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-6.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-6.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-6.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-6.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/a-lu%C3%A1n/fig-7.avif?size=large" data-thumbnail="/en/posts/a-lu%C3%A1n/fig-7.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/a-lu%C3%A1n/fig-7.avif" alt="/en/posts/a-lu%C3%A1n/fig-7.avif" srcset="https://gt321.com/en/posts/a-lu%C3%A1n/fig-7.avif?size=small, https://gt321.com/en/posts/a-lu%C3%A1n/fig-7.avif?size=medium 1.5x, https://gt321.com/en/posts/a-lu%C3%A1n/fig-7.avif?size=large 2x" data-title="/en/posts/a-lu%C3%A1n/fig-7.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="1.mp4"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>就叫阿銮&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>KK表示不服</title><link>https://gt321.com/en/posts/kkbsbf/</link><pubDate>Tue, 14 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/kkbsbf/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[KK表示不服]--直播大尺度“骚” 播&lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kkbsbf/fig-1.avif?size=large" data-thumbnail="/en/posts/kkbsbf/fig-1.avif?size=small" data-sub-html="&lt;h2>KK表示不服&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kkbsbf/fig-1.avif" alt="/en/posts/kkbsbf/fig-1.avif" srcset="https://gt321.com/en/posts/kkbsbf/fig-1.avif?size=small, https://gt321.com/en/posts/kkbsbf/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/kkbsbf/fig-1.avif?size=large 2x" data-title="/en/posts/kkbsbf/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">KK表示不服&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>一个月黑风高的夜晚，瓜瓜闲来无事看了下直播，一不小心以为自己开错软件了，再三确认下没错，这是抖音~&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏④&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kkbsbf/fig-2.avif?size=large" data-thumbnail="/en/posts/kkbsbf/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kkbsbf/fig-2.avif" alt="/en/posts/kkbsbf/fig-2.avif" srcset="https://gt321.com/en/posts/kkbsbf/fig-2.avif?size=small, https://gt321.com/en/posts/kkbsbf/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/kkbsbf/fig-2.avif?size=large 2x" data-title="/en/posts/kkbsbf/fig-2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kkbsbf/fig-3.avif?size=large" data-thumbnail="/en/posts/kkbsbf/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kkbsbf/fig-3.avif" alt="/en/posts/kkbsbf/fig-3.avif" srcset="https://gt321.com/en/posts/kkbsbf/fig-3.avif?size=small, https://gt321.com/en/posts/kkbsbf/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/kkbsbf/fig-3.avif?size=large 2x" data-title="/en/posts/kkbsbf/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kkbsbf/fig-4.avif?size=large" data-thumbnail="/en/posts/kkbsbf/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 4&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kkbsbf/fig-4.avif" alt="/en/posts/kkbsbf/fig-4.avif" srcset="https://gt321.com/en/posts/kkbsbf/fig-4.avif?size=small, https://gt321.com/en/posts/kkbsbf/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/kkbsbf/fig-4.avif?size=large 2x" data-title="/en/posts/kkbsbf/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 4&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/kkbsbf/fig-5.avif?size=large" data-thumbnail="/en/posts/kkbsbf/fig-5.avif?size=small" data-sub-html="&lt;h2>iMessage 5&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/kkbsbf/fig-5.avif" alt="/en/posts/kkbsbf/fig-5.avif" srcset="https://gt321.com/en/posts/kkbsbf/fig-5.avif?size=small, https://gt321.com/en/posts/kkbsbf/fig-5.avif?size=medium 1.5x, https://gt321.com/en/posts/kkbsbf/fig-5.avif?size=large 2x" data-title="/en/posts/kkbsbf/fig-5.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 5&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="1.mp4" border="0"
+ frameborder=0 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>KK表示不服&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item><item><title>亿元亿顿</title><link>https://gt321.com/en/posts/yyyd/</link><pubDate>Sun, 19 Nov 2023 13:01:14 +0800</pubDate><guid>https://gt321.com/en/posts/yyyd/</guid><category domain="https://gt321.com/en/categories/%E7%BD%91%E7%BA%A2%E7%93%9C%E7%94%B0/">网红瓜田</category><description>&lt;h2 id="吃瓜爆料" class="heading-element">&lt;span>吃瓜爆料&lt;/span>
+ &lt;a href="#%e5%90%83%e7%93%9c%e7%88%86%e6%96%99" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;div class="details admonition info open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>来源&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p align="center">抖音：[亿元亿顿]--下海捞金当黄播黑丝美腿蜜臀顶的“好深” &lt;/p>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-1.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-1.avif?size=small" data-sub-html="&lt;h2>亿元亿顿&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-1.avif" alt="/en/posts/yyyd/fig-1.avif" srcset="https://gt321.com/en/posts/yyyd/fig-1.avif?size=small, https://gt321.com/en/posts/yyyd/fig-1.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-1.avif?size=large 2x" data-title="/en/posts/yyyd/fig-1.avif" width="480px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">亿元亿顿&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="picture" class="heading-element">&lt;span>picture&lt;/span>
+ &lt;a href="#picture" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>不羡鸳鸯不羡天，只羡大哥每一天。不是网红不矜持，只是大哥给的真的太多了&lt;/p>
+&lt;hr>
+&lt;div class="details admonition info">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-circle-info" aria-hidden="true">&lt;/i>截屏6&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-2.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-2.avif?size=small" data-sub-html="&lt;h2>iMessage 2&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-2.avif" alt="/en/posts/yyyd/fig-2.avif" srcset="https://gt321.com/en/posts/yyyd/fig-2.avif?size=small, https://gt321.com/en/posts/yyyd/fig-2.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-2.avif?size=large 2x" data-title="/en/posts/yyyd/fig-2.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 2&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-3.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-3.avif?size=small" data-sub-html="&lt;h2>iMessage 3&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-3.avif" alt="/en/posts/yyyd/fig-3.avif" srcset="https://gt321.com/en/posts/yyyd/fig-3.avif?size=small, https://gt321.com/en/posts/yyyd/fig-3.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-3.avif?size=large 2x" data-title="/en/posts/yyyd/fig-3.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 3&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-4.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-4.avif?size=small" data-sub-html="&lt;h2>iMessage 4&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-4.avif" alt="/en/posts/yyyd/fig-4.avif" srcset="https://gt321.com/en/posts/yyyd/fig-4.avif?size=small, https://gt321.com/en/posts/yyyd/fig-4.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-4.avif?size=large 2x" data-title="/en/posts/yyyd/fig-4.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 4&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-5.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-5.avif?size=small" data-sub-html="&lt;h2>iMessage 5&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-5.avif" alt="/en/posts/yyyd/fig-5.avif" srcset="https://gt321.com/en/posts/yyyd/fig-5.avif?size=small, https://gt321.com/en/posts/yyyd/fig-5.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-5.avif?size=large 2x" data-title="/en/posts/yyyd/fig-5.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 5&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-6.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-6.avif?size=small" data-sub-html="&lt;h2>iMessage 6&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-6.avif" alt="/en/posts/yyyd/fig-6.avif" srcset="https://gt321.com/en/posts/yyyd/fig-6.avif?size=small, https://gt321.com/en/posts/yyyd/fig-6.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-6.avif?size=large 2x" data-title="/en/posts/yyyd/fig-6.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 6&lt;/figcaption>
+ &lt;/figure>
+&lt;figure>&lt;a class="lightgallery" href="https://gt321.com/en/posts/yyyd/fig-7.avif?size=large" data-thumbnail="/en/posts/yyyd/fig-7.avif?size=small" data-sub-html="&lt;h2>iMessage 7&lt;/h2>">&lt;img loading="lazy" src="https://gt321.com/en/posts/yyyd/fig-7.avif" alt="/en/posts/yyyd/fig-7.avif" srcset="https://gt321.com/en/posts/yyyd/fig-7.avif?size=small, https://gt321.com/en/posts/yyyd/fig-7.avif?size=medium 1.5x, https://gt321.com/en/posts/yyyd/fig-7.avif?size=large 2x" data-title="/en/posts/yyyd/fig-7.avif" width="240px" class="suffix-invalid suffix-invalid__small suffix-invalid__large" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;figcaption class="image-caption">iMessage 7&lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="video" class="heading-element">&lt;span>video&lt;/span>
+ &lt;a href="#video" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>以下内容不适合 18 岁以下人群观看，请确保此人群远离。&lt;/p>
+&lt;div class="details admonition warning">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>NSFW少儿不宜&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;iframe
+ height=500 width=100%
+ src="gt.mp4"
+ frameborder=1 allowfullscreen>
+&lt;/iframe>
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;h3 id="投稿补充" class="heading-element">&lt;span>投稿补充&lt;/span>
+ &lt;a href="#%e6%8a%95%e7%a8%bf%e8%a1%a5%e5%85%85" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;hr>
+&lt;p>如果你還有主播🧐 &lt;strong>亿元亿顿&lt;/strong> 其他内容请
+通过 Telegram（&lt;a href="https://t.me/TGniu_Bot"target="_blank" rel="external nofollow noopener noreferrer">@TGniu_Bot&lt;/a>）投稿补充！&lt;/p>
+&lt;p>或者发送邮箱📫cny.thb@gmail.com投稿。&lt;/p>
+&lt;hr></description></item></channel></rss>
